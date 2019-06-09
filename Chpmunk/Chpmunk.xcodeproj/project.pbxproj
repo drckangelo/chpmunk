@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E69C3DF22A9CFF00065D40D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C3DE22A9CFF00065D40D /* AppDelegate.swift */; };
+		2E69C3E122A9CFF00065D40D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C3E022A9CFF00065D40D /* ViewController.swift */; };
+		2E69C3E422A9CFF00065D40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E69C3E222A9CFF00065D40D /* Main.storyboard */; };
+		2E69C3E622A9CFF20065D40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E69C3E522A9CFF20065D40D /* Assets.xcassets */; };
+		2E69C3E922A9CFF20065D40D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E69C3E722A9CFF20065D40D /* LaunchScreen.storyboard */; };
+		2E69C3F422A9CFF20065D40D /* ChpmunkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C3F322A9CFF20065D40D /* ChpmunkTests.swift */; };
+		2E69C3FF22A9CFF20065D40D /* ChpmunkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C3FE22A9CFF20065D40D /* ChpmunkUITests.swift */; };
+		2E69C40D22A9D0420065D40D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C40C22A9D0420065D40D /* User.swift */; };
+		2E69C41322AA0DF00065D40D /* StudentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C41222AA0DF00065D40D /* StudentUser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E69C3F022A9CFF20065D40D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E69C3D322A9CFF00065D40D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E69C3DA22A9CFF00065D40D;
+			remoteInfo = Chpmunk;
+		};
+		2E69C3FB22A9CFF20065D40D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E69C3D322A9CFF00065D40D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E69C3DA22A9CFF00065D40D;
+			remoteInfo = Chpmunk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E69C3DB22A9CFF00065D40D /* Chpmunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chpmunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E69C3DE22A9CFF00065D40D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E69C3E022A9CFF00065D40D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E69C3E322A9CFF00065D40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E69C3E522A9CFF20065D40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E69C3E822A9CFF20065D40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E69C3EA22A9CFF20065D40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E69C3EF22A9CFF20065D40D /* ChpmunkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChpmunkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E69C3F322A9CFF20065D40D /* ChpmunkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChpmunkTests.swift; sourceTree = "<group>"; };
+		2E69C3F522A9CFF20065D40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E69C3FA22A9CFF20065D40D /* ChpmunkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChpmunkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E69C3FE22A9CFF20065D40D /* ChpmunkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChpmunkUITests.swift; sourceTree = "<group>"; };
+		2E69C40022A9CFF20065D40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E69C40C22A9D0420065D40D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2E69C41222AA0DF00065D40D /* StudentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E69C3D822A9CFF00065D40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E69C3EC22A9CFF20065D40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E69C3F722A9CFF20065D40D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E69C3D222A9CFF00065D40D = {
+			isa = PBXGroup;
+			children = (
+				2E69C3DD22A9CFF00065D40D /* Chpmunk */,
+				2E69C3F222A9CFF20065D40D /* ChpmunkTests */,
+				2E69C3FD22A9CFF20065D40D /* ChpmunkUITests */,
+				2E69C3DC22A9CFF00065D40D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E69C3DC22A9CFF00065D40D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E69C3DB22A9CFF00065D40D /* Chpmunk.app */,
+				2E69C3EF22A9CFF20065D40D /* ChpmunkTests.xctest */,
+				2E69C3FA22A9CFF20065D40D /* ChpmunkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E69C3DD22A9CFF00065D40D /* Chpmunk */ = {
+			isa = PBXGroup;
+			children = (
+				2E69C3EA22A9CFF20065D40D /* Info.plist */,
+				2E69C40E22A9D2A60065D40D /* Supporting */,
+				2E69C41022A9D2C60065D40D /* Controllers */,
+				2E69C41122A9D2CD0065D40D /* Models */,
+				2E69C40F22A9D2BF0065D40D /* Views */,
+			);
+			path = Chpmunk;
+			sourceTree = "<group>";
+		};
+		2E69C3F222A9CFF20065D40D /* ChpmunkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E69C3F322A9CFF20065D40D /* ChpmunkTests.swift */,
+				2E69C3F522A9CFF20065D40D /* Info.plist */,
+			);
+			path = ChpmunkTests;
+			sourceTree = "<group>";
+		};
+		2E69C3FD22A9CFF20065D40D /* ChpmunkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E69C3FE22A9CFF20065D40D /* ChpmunkUITests.swift */,
+				2E69C40022A9CFF20065D40D /* Info.plist */,
+			);
+			path = ChpmunkUITests;
+			sourceTree = "<group>";
+		};
+		2E69C40E22A9D2A60065D40D /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				2E69C3DE22A9CFF00065D40D /* AppDelegate.swift */,
+				2E69C3E522A9CFF20065D40D /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		2E69C40F22A9D2BF0065D40D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E69C3E222A9CFF00065D40D /* Main.storyboard */,
+				2E69C3E722A9CFF20065D40D /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E69C41022A9D2C60065D40D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E69C3E022A9CFF00065D40D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E69C41122A9D2CD0065D40D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2E69C40C22A9D0420065D40D /* User.swift */,
+				2E69C41222AA0DF00065D40D /* StudentUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E69C3DA22A9CFF00065D40D /* Chpmunk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E69C40322A9CFF20065D40D /* Build configuration list for PBXNativeTarget "Chpmunk" */;
+			buildPhases = (
+				2E69C3D722A9CFF00065D40D /* Sources */,
+				2E69C3D822A9CFF00065D40D /* Frameworks */,
+				2E69C3D922A9CFF00065D40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chpmunk;
+			productName = Chpmunk;
+			productReference = 2E69C3DB22A9CFF00065D40D /* Chpmunk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E69C3EE22A9CFF20065D40D /* ChpmunkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E69C40622A9CFF20065D40D /* Build configuration list for PBXNativeTarget "ChpmunkTests" */;
+			buildPhases = (
+				2E69C3EB22A9CFF20065D40D /* Sources */,
+				2E69C3EC22A9CFF20065D40D /* Frameworks */,
+				2E69C3ED22A9CFF20065D40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E69C3F122A9CFF20065D40D /* PBXTargetDependency */,
+			);
+			name = ChpmunkTests;
+			productName = ChpmunkTests;
+			productReference = 2E69C3EF22A9CFF20065D40D /* ChpmunkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E69C3F922A9CFF20065D40D /* ChpmunkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E69C40922A9CFF20065D40D /* Build configuration list for PBXNativeTarget "ChpmunkUITests" */;
+			buildPhases = (
+				2E69C3F622A9CFF20065D40D /* Sources */,
+				2E69C3F722A9CFF20065D40D /* Frameworks */,
+				2E69C3F822A9CFF20065D40D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E69C3FC22A9CFF20065D40D /* PBXTargetDependency */,
+			);
+			name = ChpmunkUITests;
+			productName = ChpmunkUITests;
+			productReference = 2E69C3FA22A9CFF20065D40D /* ChpmunkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E69C3D322A9CFF00065D40D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Derick David";
+				TargetAttributes = {
+					2E69C3DA22A9CFF00065D40D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2E69C3EE22A9CFF20065D40D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2E69C3DA22A9CFF00065D40D;
+					};
+					2E69C3F922A9CFF20065D40D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 2E69C3DA22A9CFF00065D40D;
+					};
+				};
+			};
+			buildConfigurationList = 2E69C3D622A9CFF00065D40D /* Build configuration list for PBXProject "Chpmunk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E69C3D222A9CFF00065D40D;
+			productRefGroup = 2E69C3DC22A9CFF00065D40D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E69C3DA22A9CFF00065D40D /* Chpmunk */,
+				2E69C3EE22A9CFF20065D40D /* ChpmunkTests */,
+				2E69C3F922A9CFF20065D40D /* ChpmunkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E69C3D922A9CFF00065D40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E69C3E922A9CFF20065D40D /* LaunchScreen.storyboard in Resources */,
+				2E69C3E622A9CFF20065D40D /* Assets.xcassets in Resources */,
+				2E69C3E422A9CFF00065D40D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E69C3ED22A9CFF20065D40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E69C3F822A9CFF20065D40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E69C3D722A9CFF00065D40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E69C3E122A9CFF00065D40D /* ViewController.swift in Sources */,
+				2E69C3DF22A9CFF00065D40D /* AppDelegate.swift in Sources */,
+				2E69C41322AA0DF00065D40D /* StudentUser.swift in Sources */,
+				2E69C40D22A9D0420065D40D /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E69C3EB22A9CFF20065D40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E69C3F422A9CFF20065D40D /* ChpmunkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E69C3F622A9CFF20065D40D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E69C3FF22A9CFF20065D40D /* ChpmunkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E69C3F122A9CFF20065D40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E69C3DA22A9CFF00065D40D /* Chpmunk */;
+			targetProxy = 2E69C3F022A9CFF20065D40D /* PBXContainerItemProxy */;
+		};
+		2E69C3FC22A9CFF20065D40D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E69C3DA22A9CFF00065D40D /* Chpmunk */;
+			targetProxy = 2E69C3FB22A9CFF20065D40D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E69C3E222A9CFF00065D40D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E69C3E322A9CFF00065D40D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E69C3E722A9CFF20065D40D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E69C3E822A9CFF20065D40D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E69C40122A9CFF20065D40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E69C40222A9CFF20065D40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E69C40422A9CFF20065D40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7RH25GYY8;
+				INFOPLIST_FILE = Chpmunk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunk.Chpmunk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E69C40522A9CFF20065D40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7RH25GYY8;
+				INFOPLIST_FILE = Chpmunk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunk.Chpmunk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E69C40722A9CFF20065D40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7RH25GYY8;
+				INFOPLIST_FILE = ChpmunkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunk.ChpmunkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chpmunk.app/Chpmunk";
+			};
+			name = Debug;
+		};
+		2E69C40822A9CFF20065D40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7RH25GYY8;
+				INFOPLIST_FILE = ChpmunkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunk.ChpmunkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chpmunk.app/Chpmunk";
+			};
+			name = Release;
+		};
+		2E69C40A22A9CFF20065D40D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7RH25GYY8;
+				INFOPLIST_FILE = ChpmunkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunk.ChpmunkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chpmunk;
+			};
+			name = Debug;
+		};
+		2E69C40B22A9CFF20065D40D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7RH25GYY8;
+				INFOPLIST_FILE = ChpmunkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunk.ChpmunkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chpmunk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E69C3D622A9CFF00065D40D /* Build configuration list for PBXProject "Chpmunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E69C40122A9CFF20065D40D /* Debug */,
+				2E69C40222A9CFF20065D40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E69C40322A9CFF20065D40D /* Build configuration list for PBXNativeTarget "Chpmunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E69C40422A9CFF20065D40D /* Debug */,
+				2E69C40522A9CFF20065D40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E69C40622A9CFF20065D40D /* Build configuration list for PBXNativeTarget "ChpmunkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E69C40722A9CFF20065D40D /* Debug */,
+				2E69C40822A9CFF20065D40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E69C40922A9CFF20065D40D /* Build configuration list for PBXNativeTarget "ChpmunkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E69C40A22A9CFF20065D40D /* Debug */,
+				2E69C40B22A9CFF20065D40D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E69C3D322A9CFF00065D40D /* Project object */;
+}
