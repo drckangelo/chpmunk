@@ -16,6 +16,7 @@
 		2E69C3FF22A9CFF20065D40D /* ChpmunkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C3FE22A9CFF20065D40D /* ChpmunkUITests.swift */; };
 		2E69C40D22A9D0420065D40D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C40C22A9D0420065D40D /* User.swift */; };
 		2E69C41322AA0DF00065D40D /* StudentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C41222AA0DF00065D40D /* StudentUser.swift */; };
+		2EFD039322ACCD5100808630 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD039222ACCD5100808630 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2E69C40022A9CFF20065D40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E69C40C22A9D0420065D40D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2E69C41222AA0DF00065D40D /* StudentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentUser.swift; sourceTree = "<group>"; };
+		2EFD039222ACCD5100808630 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				2E69C40C22A9D0420065D40D /* User.swift */,
 				2E69C41222AA0DF00065D40D /* StudentUser.swift */,
+				2EFD039222ACCD5100808630 /* Event.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				2E69C3DF22A9CFF00065D40D /* AppDelegate.swift in Sources */,
 				2E69C41322AA0DF00065D40D /* StudentUser.swift in Sources */,
 				2E69C40D22A9D0420065D40D /* User.swift in Sources */,
+				2EFD039322ACCD5100808630 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
