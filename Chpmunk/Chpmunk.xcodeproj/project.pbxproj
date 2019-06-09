@@ -21,6 +21,12 @@
 		2EFD039722ACD96F00808630 /* BlindEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD039622ACD96F00808630 /* BlindEvent.swift */; };
 		2EFD039922ACDB2800808630 /* MP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD039822ACDB2800808630 /* MP.swift */; };
 		2EFD039B22ACDC4400808630 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD039A22ACDC4400808630 /* Helpers.swift */; };
+		2EFD03A122ACE4AB00808630 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD03A022ACE4AB00808630 /* Onboarding.swift */; };
+		2EFD03A722ACE55200808630 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD03A622ACE55200808630 /* FeedViewController.swift */; };
+		2EFD03A922ACE61E00808630 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD03A822ACE61E00808630 /* LoginViewController.swift */; };
+		2EFD03AB22ACE62600808630 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD03AA22ACE62600808630 /* SignupViewController.swift */; };
+		2EFD03AD22ACE63000808630 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD03AC22ACE63000808630 /* ProfileViewController.swift */; };
+		2EFD03AF22ACE65500808630 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD03AE22ACE65500808630 /* EventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		2EFD039622ACD96F00808630 /* BlindEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlindEvent.swift; sourceTree = "<group>"; };
 		2EFD039822ACDB2800808630 /* MP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP.swift; sourceTree = "<group>"; };
 		2EFD039A22ACDC4400808630 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		2EFD03A022ACE4AB00808630 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		2EFD03A622ACE55200808630 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2EFD03A822ACE61E00808630 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2EFD03AA22ACE62600808630 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		2EFD03AC22ACE63000808630 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2EFD03AE22ACE65500808630 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +172,12 @@
 			isa = PBXGroup;
 			children = (
 				2E69C3E022A9CFF00065D40D /* ViewController.swift */,
+				2EFD03A022ACE4AB00808630 /* Onboarding.swift */,
+				2EFD03A622ACE55200808630 /* FeedViewController.swift */,
+				2EFD03A822ACE61E00808630 /* LoginViewController.swift */,
+				2EFD03AA22ACE62600808630 /* SignupViewController.swift */,
+				2EFD03AC22ACE63000808630 /* ProfileViewController.swift */,
+				2EFD03AE22ACE65500808630 /* EventViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -313,10 +331,16 @@
 				2EFD039522ACD47000808630 /* Mediators.swift in Sources */,
 				2E69C3E122A9CFF00065D40D /* ViewController.swift in Sources */,
 				2E69C3DF22A9CFF00065D40D /* AppDelegate.swift in Sources */,
+				2EFD03AD22ACE63000808630 /* ProfileViewController.swift in Sources */,
+				2EFD03AF22ACE65500808630 /* EventViewController.swift in Sources */,
 				2EFD039B22ACDC4400808630 /* Helpers.swift in Sources */,
+				2EFD03A722ACE55200808630 /* FeedViewController.swift in Sources */,
+				2EFD03A122ACE4AB00808630 /* Onboarding.swift in Sources */,
 				2E69C41322AA0DF00065D40D /* StudentUser.swift in Sources */,
 				2EFD039722ACD96F00808630 /* BlindEvent.swift in Sources */,
+				2EFD03AB22ACE62600808630 /* SignupViewController.swift in Sources */,
 				2E69C40D22A9D0420065D40D /* User.swift in Sources */,
+				2EFD03A922ACE61E00808630 /* LoginViewController.swift in Sources */,
 				2EFD039322ACCD5100808630 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
