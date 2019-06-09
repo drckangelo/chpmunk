@@ -7,26 +7,27 @@
 //
 
 import Foundation
-
+import UIKit
 
 class User {
     
     var name: String
-    var collegeMajor:String
     var age: Int
-    let universityEmail: String
+    var email: String
+    var handle: String
+    var avatar: UIImage = UIImage(named: "cpmunk-logo")!
     
-    
-    init(name: String, major: String, email: String) {
+    init(name:String, age: Int,email:String, handle:String) {
         self.name = name
-        self.collegeMajor = major
-        self.universityEmail = email
-        age = 19
+        self.age = age
+        self.email = email
+        self.handle = handle
+        
     }
 
 
     func displayName() -> String {
-        return "Hello, my name is \(name)"
+        return "Hello, my name is \(name) and my handle is \(handle)"
     }
     
     

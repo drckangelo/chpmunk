@@ -7,8 +7,16 @@
 //
 
 import Foundation
+import UIKit
 
-class StudentUser {
+class StudentUser: User {
+    
+    var universityEmail:String = "dmdavid@iastate.edu"
+
+    
+    override init(name: String, age: Int, email: String, handle: String) {
+        super.init(name: name, age: age, email: email, handle: handle)
+    }
     
     
     

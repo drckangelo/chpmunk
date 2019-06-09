@@ -39,14 +39,35 @@
                                 <color key="textColor" red="0.89011900909999997" green="0.79776679790000005" blue="0.14204988360000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initiating time..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wE-iz-tqm">
+                                <rect key="frame" x="133" y="527" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Relationship duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFh-X5-1nQ">
+                                <rect key="frame" x="87" y="489" width="200" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3wE-iz-tqm" secondAttribute="trailing" constant="125" id="GHN-h7-qEy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3wE-iz-tqm" secondAttribute="bottom" constant="230" id="LOr-xq-oTN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nFh-X5-1nQ" secondAttribute="trailing" constant="88" id="k6i-5l-vad"/>
+                            <constraint firstItem="nFh-X5-1nQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="ptK-xl-x03"/>
+                            <constraint firstItem="3wE-iz-tqm" firstAttribute="firstBaseline" secondItem="nFh-X5-1nQ" secondAttribute="baseline" constant="36.333333333333371" id="rOM-fy-D31"/>
+                            <constraint firstItem="3wE-iz-tqm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="uOM-sY-aNw"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="onboardWelcome" destination="Ouo-md-Tbe" id="rDC-fl-fZM"/>
                         <outlet property="onboardWelcome1" destination="YEK-M7-dq5" id="u3m-Eu-WkY"/>
                         <outlet property="onboardWelcome2" destination="WYZ-T2-12g" id="sgN-Cf-ZS6"/>
+                        <outlet property="timeDuration" destination="3wE-iz-tqm" id="rwh-XL-BdA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

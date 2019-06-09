@@ -14,10 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var onboardWelcome1: UILabel!
     @IBOutlet weak var onboardWelcome: UILabel!
     
+    @IBOutlet weak var timeDuration: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        let timeDuration = Helpers()
+        
+        self.timeDuration.text = "\(timeDuration.initiateTime())"
         
     }
     
