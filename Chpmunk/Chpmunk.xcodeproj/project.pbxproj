@@ -313,6 +313,7 @@
 				TargetAttributes = {
 					2E69C3DA22A9CFF00065D40D = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					2E69C3EE22A9CFF20065D40D = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -665,7 +666,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunki.Chpmunk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -684,7 +685,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunki.Chpmunk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

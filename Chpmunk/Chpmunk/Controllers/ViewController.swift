@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var onboardWelcome1: UILabel!
     @IBOutlet weak var onboardWelcome: UILabel!
     
+    
     @IBOutlet weak var timeDuration: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +22,7 @@ class ViewController: UIViewController {
         
         let timeDuration = Helpers()
         
-        self.timeDuration.text = "\(timeDuration.initiateTime())"
+        //self.timeDuration.text = "\(timeDuration.initiateTime())"
         
     }
     
@@ -33,6 +34,13 @@ class ViewController: UIViewController {
         }
     }
 
-
+    // MARK: Actions
+    
+    @IBAction func Login(_ sender: Any) {
+        
+    }
+    
+    @IBAction func Signup(_ sender: Any) {
+    }
 }
 
