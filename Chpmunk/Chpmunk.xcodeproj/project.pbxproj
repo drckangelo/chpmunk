@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AEB7E5BC2DCDA10FEE2676F /* Pods_ChpmunkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F30FAAD77A5401BBC65AD8B /* Pods_ChpmunkUITests.framework */; };
+		1CB1BCBE0668A89E4238E4B7 /* Pods_ChpmunkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2652D8EB6BAB1F1E6136C9 /* Pods_ChpmunkTests.framework */; };
+		26C95CB422AF60E600E8BFA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26C95CB322AF60E600E8BFA3 /* GoogleService-Info.plist */; };
+		26C95CB522AF60E600E8BFA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26C95CB322AF60E600E8BFA3 /* GoogleService-Info.plist */; };
+		26C95CB622AF60E600E8BFA3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26C95CB322AF60E600E8BFA3 /* GoogleService-Info.plist */; };
 		2E69C3DF22A9CFF00065D40D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C3DE22A9CFF00065D40D /* AppDelegate.swift */; };
 		2E69C3E122A9CFF00065D40D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69C3E022A9CFF00065D40D /* ViewController.swift */; };
 		2E69C3E422A9CFF00065D40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E69C3E222A9CFF00065D40D /* Main.storyboard */; };
@@ -27,6 +32,7 @@
 		2EFD03AB22ACE62600808630 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD03AA22ACE62600808630 /* SignupViewController.swift */; };
 		2EFD03AD22ACE63000808630 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD03AC22ACE63000808630 /* ProfileViewController.swift */; };
 		2EFD03AF22ACE65500808630 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFD03AE22ACE65500808630 /* EventViewController.swift */; };
+		9E7F06A7A537FE5D0DF5C8A6 /* Pods_Chpmunk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CFD35DD310BE37FDE3F8E7 /* Pods_Chpmunk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00547DAB5BA5B7EF032B3B97 /* Pods-Chpmunk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chpmunk.release.xcconfig"; path = "Target Support Files/Pods-Chpmunk/Pods-Chpmunk.release.xcconfig"; sourceTree = "<group>"; };
+		26C95CB322AF60E600E8BFA3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2E69C3DB22A9CFF00065D40D /* Chpmunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chpmunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E69C3DE22A9CFF00065D40D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E69C3E022A9CFF00065D40D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +81,14 @@
 		2EFD03AA22ACE62600808630 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		2EFD03AC22ACE63000808630 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2EFD03AE22ACE65500808630 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		41B6CC126507738314D01D7D /* Pods-ChpmunkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChpmunkUITests.release.xcconfig"; path = "Target Support Files/Pods-ChpmunkUITests/Pods-ChpmunkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F30FAAD77A5401BBC65AD8B /* Pods_ChpmunkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChpmunkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CEE6408A01C995CE0BE0FC /* Pods-ChpmunkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChpmunkUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChpmunkUITests/Pods-ChpmunkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		990CD2A5A94B4AC4C26D524E /* Pods-ChpmunkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChpmunkTests.release.xcconfig"; path = "Target Support Files/Pods-ChpmunkTests/Pods-ChpmunkTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6CFD35DD310BE37FDE3F8E7 /* Pods_Chpmunk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chpmunk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AD3668D510BBB0AFE12CD7 /* Pods-Chpmunk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chpmunk.debug.xcconfig"; path = "Target Support Files/Pods-Chpmunk/Pods-Chpmunk.debug.xcconfig"; sourceTree = "<group>"; };
+		DA9A7226F81426BB4838D70C /* Pods-ChpmunkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChpmunkTests.debug.xcconfig"; path = "Target Support Files/Pods-ChpmunkTests/Pods-ChpmunkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE2652D8EB6BAB1F1E6136C9 /* Pods_ChpmunkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChpmunkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7F06A7A537FE5D0DF5C8A6 /* Pods_Chpmunk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB1BCBE0668A89E4238E4B7 /* Pods_ChpmunkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEB7E5BC2DCDA10FEE2676F /* Pods_ChpmunkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +126,8 @@
 				2E69C3F222A9CFF20065D40D /* ChpmunkTests */,
 				2E69C3FD22A9CFF20065D40D /* ChpmunkUITests */,
 				2E69C3DC22A9CFF00065D40D /* Products */,
+				D7FE39623EEC40D41C1D79D9 /* Pods */,
+				CBA6C3563B9533A8551E0587 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +144,7 @@
 		2E69C3DD22A9CFF00065D40D /* Chpmunk */ = {
 			isa = PBXGroup;
 			children = (
+				26C95CB322AF60E600E8BFA3 /* GoogleService-Info.plist */,
 				2E69C3EA22A9CFF20065D40D /* Info.plist */,
 				2E69C40E22A9D2A60065D40D /* Supporting */,
 				2E69C41022A9D2C60065D40D /* Controllers */,
@@ -196,6 +218,29 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		CBA6C3563B9533A8551E0587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6CFD35DD310BE37FDE3F8E7 /* Pods_Chpmunk.framework */,
+				FE2652D8EB6BAB1F1E6136C9 /* Pods_ChpmunkTests.framework */,
+				6F30FAAD77A5401BBC65AD8B /* Pods_ChpmunkUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7FE39623EEC40D41C1D79D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2AD3668D510BBB0AFE12CD7 /* Pods-Chpmunk.debug.xcconfig */,
+				00547DAB5BA5B7EF032B3B97 /* Pods-Chpmunk.release.xcconfig */,
+				DA9A7226F81426BB4838D70C /* Pods-ChpmunkTests.debug.xcconfig */,
+				990CD2A5A94B4AC4C26D524E /* Pods-ChpmunkTests.release.xcconfig */,
+				88CEE6408A01C995CE0BE0FC /* Pods-ChpmunkUITests.debug.xcconfig */,
+				41B6CC126507738314D01D7D /* Pods-ChpmunkUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E69C40322A9CFF20065D40D /* Build configuration list for PBXNativeTarget "Chpmunk" */;
 			buildPhases = (
+				83ED50199DA4454E50392336 /* [CP] Check Pods Manifest.lock */,
 				2E69C3D722A9CFF00065D40D /* Sources */,
 				2E69C3D822A9CFF00065D40D /* Frameworks */,
 				2E69C3D922A9CFF00065D40D /* Resources */,
+				36FBEB1F4D75E408F3751289 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E69C40622A9CFF20065D40D /* Build configuration list for PBXNativeTarget "ChpmunkTests" */;
 			buildPhases = (
+				203E3AE0087B9621BCC0ECB8 /* [CP] Check Pods Manifest.lock */,
 				2E69C3EB22A9CFF20065D40D /* Sources */,
 				2E69C3EC22A9CFF20065D40D /* Frameworks */,
 				2E69C3ED22A9CFF20065D40D /* Resources */,
@@ -238,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E69C40922A9CFF20065D40D /* Build configuration list for PBXNativeTarget "ChpmunkUITests" */;
 			buildPhases = (
+				20BEE87362A260D8E44B3714 /* [CP] Check Pods Manifest.lock */,
 				2E69C3F622A9CFF20065D40D /* Sources */,
 				2E69C3F722A9CFF20065D40D /* Frameworks */,
 				2E69C3F822A9CFF20065D40D /* Resources */,
@@ -301,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E69C3E922A9CFF20065D40D /* LaunchScreen.storyboard in Resources */,
+				26C95CB422AF60E600E8BFA3 /* GoogleService-Info.plist in Resources */,
 				2E69C3E622A9CFF20065D40D /* Assets.xcassets in Resources */,
 				2E69C3E422A9CFF00065D40D /* Main.storyboard in Resources */,
 			);
@@ -310,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C95CB522AF60E600E8BFA3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,10 +368,97 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C95CB622AF60E600E8BFA3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		203E3AE0087B9621BCC0ECB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChpmunkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20BEE87362A260D8E44B3714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChpmunkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36FBEB1F4D75E408F3751289 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chpmunk/Pods-Chpmunk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chpmunk/Pods-Chpmunk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chpmunk/Pods-Chpmunk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83ED50199DA4454E50392336 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chpmunk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E69C3D722A9CFF00065D40D /* Sources */ = {
@@ -514,16 +652,17 @@
 		};
 		2E69C40422A9CFF20065D40D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2AD3668D510BBB0AFE12CD7 /* Pods-Chpmunk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L7RH25GYY8;
+				DEVELOPMENT_TEAM = X7B85YLZAQ;
 				INFOPLIST_FILE = Chpmunk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunk.Chpmunk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunki.Chpmunk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 4.2;
@@ -533,16 +672,17 @@
 		};
 		2E69C40522A9CFF20065D40D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00547DAB5BA5B7EF032B3B97 /* Pods-Chpmunk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L7RH25GYY8;
+				DEVELOPMENT_TEAM = X7B85YLZAQ;
 				INFOPLIST_FILE = Chpmunk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunk.Chpmunk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Chpmunki.Chpmunk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -551,6 +691,7 @@
 		};
 		2E69C40722A9CFF20065D40D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9A7226F81426BB4838D70C /* Pods-ChpmunkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -572,6 +713,7 @@
 		};
 		2E69C40822A9CFF20065D40D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990CD2A5A94B4AC4C26D524E /* Pods-ChpmunkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -593,6 +735,7 @@
 		};
 		2E69C40A22A9CFF20065D40D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CEE6408A01C995CE0BE0FC /* Pods-ChpmunkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -613,6 +756,7 @@
 		};
 		2E69C40B22A9CFF20065D40D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B6CC126507738314D01D7D /* Pods-ChpmunkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

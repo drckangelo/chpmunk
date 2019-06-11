@@ -1,0 +1,6 @@
+framework module Pods_Chpmunk {
+  umbrella header "Pods-Chpmunk-umbrella.h"
+
+  export *
+  module * { export * }
+}
