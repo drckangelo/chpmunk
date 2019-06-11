@@ -11,7 +11,7 @@ import UIKit
 class FeedViewController: UIViewController {
 
     
-    var touchbase: String
+    var touchbase: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
